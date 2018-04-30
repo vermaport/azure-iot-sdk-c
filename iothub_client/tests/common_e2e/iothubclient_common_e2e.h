@@ -6,6 +6,7 @@
 
 #include "iothub_client.h"
 #include "iothub_account.h"
+#include "azure_c_shared_utility/lock.h"
 
 #ifdef __cplusplus
 extern "C" {

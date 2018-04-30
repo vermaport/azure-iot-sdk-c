@@ -27,6 +27,8 @@
 #include "parson.h"
 #include "certs.h"
 
+#include "iothubclient_common_dt_e2e.h"
+
 #define MAX_CLOUD_TRAVEL_TIME  120.0    /* 2 minutes */
 #define BUFFER_SIZE            37
 

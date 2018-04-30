@@ -6,6 +6,7 @@
 
 #include "iothub_client_ll.h"
 #include "iothub_account.h"
+#include "azure_c_shared_utility/lock.h"
 
 extern void dt_e2e_init(void);
 extern void dt_e2e_deinit(void);
